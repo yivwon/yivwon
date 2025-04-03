@@ -3,100 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Play | Ivy Cho</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Ivy Cho | Play</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=DM+Sans:opsz,wght@9..40,400;9..40,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Header -->
-    <header class="header">
-        <div class="container header-container">
-            <nav class="main-nav">
-                <a href="index.html" class="nav-link">work</a>
-                <a href="play.html" class="nav-link active">play</a>
-                <a href="about.html" class="nav-link">about</a>
-                <a href="resume.html" class="nav-link resume-link">resume</a>
-            </nav>
-        </div>
-    </header>
+    <div class="container">
+        <nav class="navbar">
+            <div class="nav-links">
+                <a href="work.html">work</a>
+                <a href="play.html" class="active">play</a>
+                <a href="about.html">about</a>
+                <a href="#" class="resume-btn">resume</a>
+            </div>
+        </nav>
 
-    <!-- Page Header -->
-    <section class="page-header dark-section">
-        <div class="container">
-            <a href="index.html" class="back-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
-                Back to home
-            </a>
-            <h1 class="page-title">Playground</h1>
-            <p class="page-description">
-                A collection of experimental projects, creative coding, and design explorations. 
-                This is where I play with new ideas, technologies, and concepts without constraints.
-            </p>
-        </div>
-    </section>
-
-    <!-- Play Section -->
-    <section class="play-section light-section">
-        <div class="container">
-            <div class="play-grid">
-                <!-- Experiment 1 -->
-                <div class="experiment">
-                    <div class="experiment-image-container">
-                        <div class="experiment-image"></div>
-                    </div>
-                    <h3 class="experiment-title">Generative Art Experiment</h3>
-                    <p class="experiment-meta">Creative coding with p5.js</p>
+        <main class="play-content">
+            <h2 class="play-title">peek into my brain..</h2>
+            
+            <div class="masonry-grid">
+                <div class="masonry-item tall">
+                    <img src="/placeholder.svg?height=500&width=300" alt="Creative work">
                 </div>
-
-                <!-- Experiment 2 -->
-                <div class="experiment">
-                    <div class="experiment-image-container">
-                        <div class="experiment-image"></div>
-                    </div>
-                    <h3 class="experiment-title">Interactive Typography</h3>
-                    <p class="experiment-meta">WebGL experiment</p>
+                <div class="masonry-item">
+                    <img src="/placeholder.svg?height=250&width=250" alt="Creative work">
                 </div>
-
-                <!-- Experiment 3 -->
-                <div class="experiment">
-                    <div class="experiment-image-container">
-                        <div class="experiment-image"></div>
-                    </div>
-                    <h3 class="experiment-title">3D Product Visualization</h3>
-                    <p class="experiment-meta">Three.js exploration</p>
+                <div class="masonry-item">
+                    <img src="/placeholder.svg?height=250&width=250" alt="Creative work">
                 </div>
-
-                <!-- Experiment 4 -->
-                <div class="experiment">
-                    <div class="experiment-image-container">
-                        <div class="experiment-image"></div>
-                    </div>
-                    <h3 class="experiment-title">Micro-interactions</h3>
-                    <p class="experiment-meta">Animation studies</p>
+                <div class="masonry-item wide">
+                    <img src="/placeholder.svg?height=300&width=600" alt="Creative work">
+                </div>
+                <div class="masonry-item">
+                    <img src="/placeholder.svg?height=250&width=250" alt="Creative work">
+                </div>
+                <div class="masonry-item tall-wide">
+                    <img src="/placeholder.svg?height=500&width=300" alt="Creative work">
+                </div>
+                <div class="masonry-item">
+                    <img src="/placeholder.svg?height=250&width=250" alt="Creative work">
+                </div>
+                <div class="masonry-item wide">
+                    <img src="/placeholder.svg?height=300&width=600" alt="Creative work">
                 </div>
             </div>
-        </div>
-    </section>
+        </main>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-main">
-                <div class="footer-title">ivy cho</div>
-                <div class="footer-links">
-                    <a href="mailto:hello@ivycho.com" class="footer-link">hello@ivycho.com</a>
-                    <a href="https://www.linkedin.com/in/ivyhcho/" class="footer-link" target="_blank">LinkedIn</a>
-                    <a href="https://www.instagram.com/yivwon/" class="footer-link" target="_blank">Instagram</a>
-                    <a href="https://twitter.com" class="footer-link" target="_blank">Twitter</a>
-                </div>
+        <footer class="footer">
+            <div class="contact-text">
+                <span>⋆ ˚｡⋆ contact me ⋆ ˚｡⋆</span>
             </div>
-            <div class="footer-bottom">
-                <p>ivy cho ✦ ◇ + ivy cho ✦</p>
+            <div class="social-icons">
+                <a href="#" aria-label="Twitter/X"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4l11.733 16h4.267l-11.733 -16z"></path><path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"></path></svg></a>
+                <a href="#" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect width="4" height="12" x="2" y="9"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
+                <a href="#" aria-label="Email"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg></a>
             </div>
-        </div>
-    </footer>
+        </footer>
+    </div>
 
     <script src="script.js"></script>
 </body>

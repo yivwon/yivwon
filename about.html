@@ -3,177 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About | Ivy Cho</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Ivy Cho | About</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=DM+Sans:opsz,wght@9..40,400;9..40,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Header -->
-    <header class="header">
-        <div class="container header-container">
-            <nav class="main-nav">
-                <a href="index.html" class="nav-link">work</a>
-                <a href="play.html" class="nav-link">play</a>
-                <a href="about.html" class="nav-link active">about</a>
-                <a href="resume.html" class="nav-link resume-link">resume</a>
-            </nav>
-        </div>
-    </header>
+    <div class="container">
+        <nav class="navbar">
+            <div class="nav-links">
+                <a href="work.html">work</a>
+                <a href="play.html">play</a>
+                <a href="about.html" class="active">about</a>
+                <a href="#" class="resume-btn">resume</a>
+            </div>
+        </nav>
 
-    <!-- Page Header -->
-    <section class="page-header dark-section">
-        <div class="container">
-            <a href="index.html" class="back-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
-                Back to home
-            </a>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section class="about-section light-section">
-        <div class="container">
+        <main class="about-content">
             <div class="about-grid">
-                <div class="about-content">
-                    <h1 class="about-title">About Me</h1>
-                    
-                    <div class="about-text">
-                        <p>
-                            Hello! I'm Ivy, a product designer with a passion for creating intuitive and beautiful digital experiences.
-                            With a background in computer science, I bring a unique perspective to design challenges.
-                        </p>
-                        
-                        <p>
-                            My journey in design began during my computer science studies when I realized that I was equally fascinated by 
-                            how people interact with technology as I was with building it. This led me to explore the intersection of 
-                            design and development, where I found my true calling.
-                        </p>
-                        
-                        <p>
-                            I believe that great design is invisible—it should feel natural and intuitive to the user. My approach combines 
-                            analytical thinking with creative problem-solving, allowing me to craft solutions that are both functional and 
-                            aesthetically pleasing.
-                        </p>
-                        
-                        <p>
-                            When I'm not designing, you can find me exploring new coffee shops, experimenting with creative coding, 
-                            or adding to my collection of design books. I'm also a bubble tea enthusiast and am always on the lookout 
-                            for the perfect brew.
-                        </p>
-                    </div>
-                    
-                    <div class="experience-section">
-                        <h2 class="section-subtitle">Experience</h2>
-                        <div class="experience-items">
-                            <div class="experience-item">
-                                <h3 class="experience-title">Senior Product Designer</h3>
-                                <p class="experience-meta">Company Name • 2022 - Present</p>
-                            </div>
-                            <div class="experience-item">
-                                <h3 class="experience-title">UX/UI Designer</h3>
-                                <p class="experience-meta">Previous Company • 2020 - 2022</p>
-                            </div>
-                            <div class="experience-item">
-                                <h3 class="experience-title">Design Intern</h3>
-                                <p class="experience-meta">Internship Company • Summer 2019</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="education-section">
-                        <h2 class="section-subtitle">Education</h2>
-                        <div class="education-item">
-                            <h3 class="education-title">Bachelor of Science in Computer Science</h3>
-                            <p class="education-meta">University of Western Ontario • 2016 - 2020</p>
-                        </div>
+                <div class="about-image">
+                    <div class="polaroid">
+                        <img src="/placeholder.svg?height=600&width=400" alt="Ivy Cho">
                     </div>
                 </div>
-                
-                <div class="about-sidebar">
-                    <div class="about-image"></div>
-                    
-                    <div class="skills-section">
-                        <h2 class="section-subtitle">Skills</h2>
-                        <div class="skills-grid">
-                            <div class="skill-category">
-                                <h3 class="skill-title">Design</h3>
-                                <ul class="skill-list">
-                                    <li>UI/UX Design</li>
-                                    <li>Interaction Design</li>
-                                    <li>Design Systems</li>
-                                    <li>Wireframing</li>
-                                    <li>Prototyping</li>
-                                </ul>
-                            </div>
-                            
-                            <div class="skill-category">
-                                <h3 class="skill-title">Research</h3>
-                                <ul class="skill-list">
-                                    <li>User Research</li>
-                                    <li>Usability Testing</li>
-                                    <li>A/B Testing</li>
-                                    <li>Competitive Analysis</li>
-                                    <li>User Interviews</li>
-                                </ul>
-                            </div>
-                            
-                            <div class="skill-category">
-                                <h3 class="skill-title">Tools</h3>
-                                <ul class="skill-list">
-                                    <li>Figma</li>
-                                    <li>Adobe Creative Suite</li>
-                                    <li>Sketch</li>
-                                    <li>Framer</li>
-                                    <li>Principle</li>
-                                </ul>
-                            </div>
-                            
-                            <div class="skill-category">
-                                <h3 class="skill-title">Development</h3>
-                                <ul class="skill-list">
-                                    <li>HTML/CSS/JavaScript</li>
-                                    <li>React</li>
-                                    <li>Tailwind CSS</li>
-                                    <li>Git</li>
-                                    <li>Basic Python</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="contact-section">
-                        <h2 class="section-subtitle">Contact</h2>
-                        <ul class="contact-list">
-                            <li><a href="mailto:ivyy.cho@gmail.com">ivyy.cho@gmail.com</a></li>
-                            <li><a href="https://www.linkedin.com/in/ivyhcho/" target="_blank">LinkedIn</a></li>
-                            <li><a href="https://www.instagram.com/yivwon/" target="_blank">Instagram</a></li>
-                            <li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
-                        </ul>
-                    </div>
+                <div class="about-text">
+                    <h2 class="about-title">hello!!</h2>
+                    <p>my name is ivy :) i'm a first year CS + business student @ <a href="#" class="text-link">western university</a>.</p>
+                    <p>i'm a designer who's passionate in crafting meaningful digital interactions and experiences. after discovering code as an medium for infinite creation, i'm now living in the space where technology and art intertwine :)</p>
+                    <p>outside of work, you can find me sipping on an iced <a href="#" class="text-link">matcha latte</a>, scouting for the next big film on letterboxd, and learning how to backflip.</p>
+                    <p>currently social media @ SharpStakes, pirate @ the straw hat pirates</p>
+                    <p>prev designer @ WDS</p>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-main">
-                <div class="footer-title">ivy cho</div>
-                <div class="footer-links">
-                    <a href="mailto:hello@ivycho.com" class="footer-link">hello@ivycho.com</a>
-                    <a href="https://www.linkedin.com/in/ivyhcho/" class="footer-link" target="_blank">LinkedIn</a>
-                    <a href="https://www.instagram.com/yivwon/" class="footer-link" target="_blank">Instagram</a>
-                    <a href="https://twitter.com" class="footer-link" target="_blank">Twitter</a>
+            <div class="connect-section">
+                <div class="connect-left">
+                    <h3>connect w/ me!</h3>
+                    <p>reach out at <a href="mailto:ivvy.cho@gmail.com" class="text-link">ivvy.cho@gmail [dot] com</a></p>
+                    <p>or, on LinkedIn / X :)</p>
+                </div>
+                <div class="connect-right">
+                    <h3>i'm open to work :)</h3>
+                    <p>always down to do work for non-profits. if you're a for-profit, please let me know in your email!</p>
                 </div>
             </div>
-            <div class="footer-bottom">
-                <p>ivy cho ✦ ◇ + ivy cho ✦</p>
+        </main>
+
+        <footer class="footer">
+            <div class="contact-text">
+                <span>⋆ ˚｡⋆ contact me ⋆ ˚｡⋆</span>
             </div>
-        </div>
-    </footer>
+            <div class="social-icons">
+                <a href="#" aria-label="Twitter/X"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4l11.733 16h4.267l-11.733 -16z"></path><path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"></path></svg></a>
+                <a href="#" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect width="4" height="12" x="2" y="9"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
+                <a href="#" aria-label="Email"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg></a>
+            </div>
+        </footer>
+    </div>
 
     <script src="script.js"></script>
 </body>

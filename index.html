@@ -3,125 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ivy Cho | UI/UX Product Designer</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Ivy Cho | Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=DM+Sans:opsz,wght@9..40,400;9..40,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Header -->
-    <header class="header">
-        <div class="container header-container">
-            <nav class="main-nav">
-                <a href="index.html" class="nav-link active">work</a>
-                <a href="play.html" class="nav-link">play</a>
-                <a href="about.html" class="nav-link">about</a>
-                <a href="resume.html" class="nav-link resume-link">resume</a>
-            </nav>
-        </div>
-    </header>
-
-    <!-- Hero Section -->
-    <section class="hero dark-section">
-        <div class="container grid-container">
-            <div class="hero-content">
-                <h1 class="hero-title">ivy cho</h1>
-                <p class="hero-description">
-                    ivy is a designer and developer with a background in computer science and a love 
-                    for bubble tea. she's a fan of small details, big ideas, and feel-good hobbies.
-                </p>
-                <p class="hero-subtitle">
-                    currently cs @uwo, prev @WDS
-                </p>
+    <div class="container">
+        <nav class="navbar">
+            <div class="nav-links">
+                <a href="work.html">work</a>
+                <a href="play.html">play</a>
+                <a href="about.html">about</a>
+                <a href="#" class="resume-btn">resume</a>
             </div>
-            <div class="hero-image"></div>
-        </div>
-    </section>
+        </nav>
 
-    <!-- Work Section -->
-    <section class="work-section light-section">
-        <div class="container">
-            <h2 class="section-title">Selected Work</h2>
-            
-            <div class="projects-container">
-                <!-- Project 1 -->
-                <div class="project">
-                    <div class="project-image-container">
-                        <div class="project-image"></div>
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title">Mobile Banking App</h3>
-                        <p class="project-meta">UI/UX Design • 2023</p>
-                        <p class="project-description">
-                            A complete redesign of a banking application focused on simplifying financial management
-                            for users. The project involved extensive user research, wireframing, and prototyping.
-                        </p>
-                        <a href="project1.html" class="case-study-link">
-                            View Case Study 
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="arrow-icon"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Project 2 -->
-                <div class="project">
-                    <div class="project-image-container">
-                        <div class="project-image"></div>
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title">E-commerce Platform</h3>
-                        <p class="project-meta">UI/UX Design • 2022</p>
-                        <p class="project-description">
-                            Designed a seamless shopping experience for a fashion e-commerce platform.
-                            The project focused on creating an intuitive browsing and checkout process.
-                        </p>
-                        <a href="project2.html" class="case-study-link">
-                            View Case Study 
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="arrow-icon"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Project 3 -->
-                <div class="project">
-                    <div class="project-image-container">
-                        <div class="project-image"></div>
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title">Health & Wellness App</h3>
-                        <p class="project-meta">UI/UX Design • 2022</p>
-                        <p class="project-description">
-                            Created a mobile application for tracking health metrics and wellness activities.
-                            The design focused on making data visualization intuitive and engaging.
-                        </p>
-                        <a href="project3.html" class="case-study-link">
-                            View Case Study 
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="arrow-icon"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-                        </a>
-                    </div>
+        <main class="home-content">
+            <div class="intro">
+                <h1 class="name cursive">ivy cho</h1>
+                <div class="illustration">
+                    <img src="/placeholder.svg?height=300&width=400" alt="Illustration" class="illus-img">
                 </div>
             </div>
-        </div>
-    </section>
+            <div class="bio">
+                <p>fan of <span class="small-details">small details (ㅡㅡ˘)</span>, <span class="big-ideas">big ideas ✧</span>, and <span class="hobbies">feel-good hobbies :3</span></p>
+                <p>Currently @ SharpStakes, Previously @ WDS</p>
+            </div>
+        </main>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-main">
-                <div class="footer-title">ivy cho</div>
-                <div class="footer-links">
-                    <a href="mailto:hello@ivycho.com" class="footer-link">hello@ivycho.com</a>
-                    <a href="https://www.linkedin.com/in/ivyhcho/" class="footer-link" target="_blank">LinkedIn</a>
-                    <a href="https://www.instagram.com/yivwon/" class="footer-link" target="_blank">Instagram</a>
-                    <a href="https://twitter.com" class="footer-link" target="_blank">Twitter</a>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>ivy cho ✦ ◇ + ivy cho ✦</p>
+        <div class="marquee-container">
+            <div class="marquee">
+                <span>ivy cho ⟡₊ ⊹ ivy cho ⟡₊ ⊹ ivy cho ⟡₊ ⊹ ivy cho ⟡₊ ⊹ ivy cho ⟡₊ ⊹ ivy cho ⟡₊ ⊹ ivy cho ⟡₊ ⊹ ivy cho ⟡₊ ⊹ </span>
+                <span>ivy cho ⟡₊ ⊹ ivy cho ⟡₊ ⊹ ivy cho ⟡₊ ⊹ ivy cho ⟡₊ ⊹ ivy cho ⟡₊ ⊹ ivy cho ⟡₊ ⊹ ivy cho ⟡₊ ⊹ ivy cho ⟡₊ ⊹ </span>
             </div>
         </div>
-    </footer>
+
+        <footer class="footer">
+            <div class="contact-text">
+                <span>⋆ ˚｡⋆ contact me ⋆ ˚｡⋆</span>
+            </div>
+            <div class="social-icons">
+                <a href="#" aria-label="Twitter/X"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4l11.733 16h4.267l-11.733 -16z"></path><path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"></path></svg></a>
+                <a href="#" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect width="4" height="12" x="2" y="9"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
+                <a href="#" aria-label="Email"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg></a>
+            </div>
+        </footer>
+    </div>
 
     <script src="script.js"></script>
 </body>
