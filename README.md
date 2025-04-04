@@ -2,7 +2,6 @@
 🌷 aside from coding, I love boba, music, and animal crossing  
 
 currently I'm working on..  
-⚡ creating a medical power monitor for communities in sub-saharan Africa and rural India    
 👩‍💻 making my personal portfolio!    
 📎 getting good grades :c  
 
