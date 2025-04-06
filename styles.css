@@ -6,8 +6,9 @@
   --text-color: #333;
   --link-color: #666;
   --link-hover: #000;
-  --accent-blue: #a6c1ee;
-  --accent-purple: #c8b6ff;
+  --accent-blue: #7CB2EC;
+  --accent-purple: #E5A8FF;
+  --marquee-color: #f8d7da;
 }
 
 * {
@@ -37,7 +38,11 @@ h1, h2, h3 {
 .cursive {
   font-family: 'Cedarville Cursive', cursive;
   -webkit-text-stroke: 3px;
-  color: var(--accent-blue);
+  background: linear-gradient(90deg, #7CB2EC, #E5A8FF);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: normal;
 }
 
 a {
@@ -54,23 +59,38 @@ a:hover {
   color: var(--accent-purple);
   text-decoration: underline;
 }
+.top-section {
+  background: linear-gradient(195deg, 
+    rgba(255, 91, 173, 0.24) 0%, 
+    rgba(250, 151, 232, 0.24) 20%, 
+    rgba(254, 207, 224, 0.24) 40%, 
+    rgba(255, 237, 237, 0.24) 57%, 
+    rgba(255, 255, 255, 0.24) 77%
+  );
+  border-bottom: 1px solid #eee;
+  padding: 60px 20px;
+  text-align: center;
+  color: #333;
+}
+
+
 
 /* Navigation */
 .navbar {
   display: flex;
   justify-content: flex-end;
   padding: 20px 0;
-  border-bottom: 1px solid #eee;
 }
 
 .nav-links {
   display: flex;
-  gap: 20px;
+  gap: 30px;
 }
 
 .nav-links a {
   padding: 5px 10px;
   font-weight: 400;
+  font-size: 18px;
 }
 
 .nav-links a.active {
@@ -86,40 +106,43 @@ a:hover {
 /* Home Page */
 .home-content {
   padding: 60px 0;
+  min-height: 40vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  background-color: var(--pink-light);
 }
 
-.intro {
+.home-container {
   display: flex;
+  width: 100%;
+  justify-content: space-between;
   align-items: center;
+}
+
+.left-content {
+  display: flex;
   gap: 30px;
-  margin-bottom: 30px;
+}
+
+.vertical-line {
+  width: 1px;
+  height: 120px;
+  background-color: #f0f0f0;
+}
+
+.name-bio {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .name {
-  font-size: 4rem;
-}
-
-.illustration {
-  background-color: #eee;
-  width: 300px;
-  height: 200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.illus-img {
-  max-width: 100%;
-  max-height: 100%;
+  font-size: 5rem;
+  line-height: 1;
 }
 
 .bio {
-  text-align: center;
-  max-width: 600px;
+  color: #888;
+  font-size: 16px;
 }
 
 .small-details {
@@ -131,14 +154,38 @@ a:hover {
 }
 
 .hobbies {
-  color: var(--pink-dark);
+  color: #aaa;
+}
+
+.workplace {
+  color: #aaa;
+  margin-top: 5px;
+}
+
+.right-content {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.illustration {
+  background-color: #ddd;
+  width: 350px;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.illus-text {
+  font-size: 4rem;
+  font-weight: bold;
 }
 
 /* Marquee Effect */
 .marquee-container {
   overflow: hidden;
   width: 100%;
-  background-color: var(--pink-light);
+  border-top: 1px solid #eee;
 }
 
 .marquee {
@@ -149,10 +196,11 @@ a:hover {
 
 .marquee span {
   display: inline-block;
-  font-family: 'Cedarville Cursive', cursive;
-  color: var(--pink-dark);
-  font-size: 2rem;
+  font-family: Arial, sans-serif;
+  color: var(--marquee-color);
+  font-size: 5rem;
   padding: 20px 0;
+  font-weight: 300;
 }
 
 @keyframes marquee {
@@ -164,9 +212,16 @@ a:hover {
   }
 }
 
-/* Work Page */
+/* Work Section */
+.work-section {
+  background-color: #fff;
+  padding: 20px 0;
+}
+
 .work-content {
-  padding: 40px 0;
+  padding: 20px 0;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 .project-card {
@@ -174,11 +229,13 @@ a:hover {
   margin-bottom: 40px;
   padding-bottom: 40px;
   border-bottom: 1px solid #eee;
+  justify-content: center;
 }
 
 .project-info {
   flex: 1;
   padding-right: 30px;
+  max-width: 300px;
 }
 
 .project-icon {
@@ -223,6 +280,7 @@ a:hover {
 
 .project-image {
   flex: 1;
+  max-width: 500px;
 }
 
 .project-image img {
@@ -327,15 +385,15 @@ a:hover {
 .footer {
   padding: 40px 0;
   text-align: center;
+  background-color: #fff;
 }
 
 .contact-text {
   font-family: 'Cedarville Cursive', cursive;
   color: var(--accent-blue);
-  margin-bottom: 15px;
-  font-size: 1.2rem;
+  top: 10px;
+  font-size: 25px;
 }
-
 .social-icons {
   display: flex;
   justify-content: center;
@@ -348,18 +406,33 @@ a:hover {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-  .intro {
+  .home-container {
       flex-direction: column;
-      text-align: center;
+      gap: 40px;
+  }
+  
+  .left-content {
+      width: 100%;
+  }
+  
+  .right-content {
+      width: 100%;
+      justify-content: center;
   }
   
   .project-card {
       flex-direction: column;
+      align-items: center;
   }
   
   .project-info {
       padding-right: 0;
       margin-bottom: 20px;
+      text-align: center;
+  }
+  
+  .project-icon {
+      margin: 0 auto 10px;
   }
   
   .about-grid {
@@ -372,5 +445,9 @@ a:hover {
   
   .masonry-grid {
       grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+  
+  .marquee span {
+      font-size: 3rem;
   }
 }
