@@ -2,7 +2,7 @@
 🌷 aside from coding, I love boba, music, and animal crossing  
 
 currently I'm working on..  
-👩‍💻 making my personal portfolio!    
+👩‍💻 growing voiceflow 
 📎 getting good grades :c  
 
 💌 hcho249@uwo.ca  
