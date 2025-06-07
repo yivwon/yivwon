@@ -1,10 +1,6 @@
 🐰 hello! my name is ivy and i'm a first-year computer science student at Western University  
 🌷 aside from coding, I love boba, music, and animal crossing  
 
-currently I'm working on..  
-👩‍💻 growing voiceflow 
-📎 getting good grades :c  
-
 💌 hcho249@uwo.ca  
 <div style="text-align: center;">
   <picture style="display: inline-block;">
