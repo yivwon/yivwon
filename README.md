@@ -1,4 +1,4 @@
-🐰 hello! my name is ivy and i'm a first-year computer science student at Western University  
+🐰 hello! my name is ivy and i'm a student at Western University  
 🌷 aside from coding, I love boba, music, and animal crossing  
 
 💌 hcho249@uwo.ca  
