@@ -1,3 +1,3 @@
 🐰 hello! my name is ivy and i'm a student at Western University     
-🌷 & a growth marketer who goes to hackathons         
+🌷 i like matcha, roblox and chipotle         
 💌 reach out at ivyy.cho@gmail.com!   
